@@ -1,8 +1,8 @@
-# Phisher Media
+# Phisher
 
 **Educational phishing-awareness simulator — Founder: ROOT L00T**
 
-Phisher Media is a deliberately limited cybersecurity training lab. It demonstrates a simulated phishing interaction without collecting credentials or exposing a service to the network.
+Phisher is a deliberately limited cybersecurity training lab. It demonstrates simulated phishing interactions without collecting credentials or exposing a service to the network.
 
 ## Safety boundaries
 
@@ -21,22 +21,18 @@ pip install -r requirements.txt
 python3 app.py
 ```
 
-Open `http://127.0.0.1:5000` in your browser. The JSON report is available at `http://127.0.0.1:5000/report`.
-
-## GitHub publishing
-
-This repository is already published under the connected GitHub account as `root22234/phish22`.
-
-To publish a local clone instead:
+In another terminal:
 
 ```bash
-git init
-git add .
-git commit -m "Initial Phisher Media educational lab"
-git branch -M main
-git remote add origin https://github.com/root22234/phish22.git
-git push -u origin main
+chmod +x phisher-media.sh
+./phisher-media.sh
 ```
+
+Open `http://127.0.0.1:5000` for the local training backend. The JSON report is available at `http://127.0.0.1:5000/report`.
+
+## GitHub
+
+Repository: `root22234/phish22`
 
 ## License
 
