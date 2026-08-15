@@ -1,13 +1,13 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-BASE_URL="${PHISHER_MEDIA_URL:-http://127.0.0.1:5000}"
+BASE_URL="${PHISHER_URL:-http://127.0.0.1:5000}"
 
 banner() {
   clear
   cat <<'EOF'
 ╔══════════════════════════════════════════╗
-║          PHISHER MEDIA v1.0              ║
+║              PHISHER v1.0               ║
 ║              ROOT L00T                   ║
 ║       SECURITY AWARENESS LAB             ║
 ╚══════════════════════════════════════════╝
